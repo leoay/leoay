@@ -1,3 +1,9 @@
+<style>
+    code {
+        color: #232334;
+    }
+</style>
+
 ```
          ===========================================================================
          ==    _    _   _   _   _____ _             _                             ==
@@ -12,20 +18,26 @@
          =============================== 2013- 2020 ================================
 ```
 
-## 
+你好，我是leoay。欢迎来到我的github做客
+
+<!-- 我会在这里分享以下几个方面的内容：
+1. 算法
+2. 编程Go, PHP, C/C++
+3. uboot以及linux内核
+4. React -->
 
 
-<!--
-**leoay/leoay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+
+<!-- 
+Todo:
+### 教程
+
+### 计算机科学基础系列文章
+
+### 项目
+1. 一个Go静态博客项目，类似于Hugo
+2.  -->
