@@ -1,4 +1,14 @@
-### Hi there 👋
+```
+ _____ _             _                        
+|_   _( )           | |                       
+  | | |/ _ __ ___   | | ___  ___   __ _ _   _ 
+  | |   | '_ ` _ \  | |/ _ \/ _ \ / _` | | | |
+ _| |_  | | | | | | | |  __/ (_) | (_| | |_| |
+ \___/  |_| |_| |_| |_|\___|\___/ \__,_|\__, |
+                                         __/ |
+                                        |___/ 
+```
+
 
 <!--
 **leoay/leoay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
