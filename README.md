@@ -19,8 +19,8 @@
 
 如果你希望获取到我的最新消息，欢迎关注微信公众号：leoay技术圈(id：leoay-lab)
 
-[](http://leoay.xyz:8085/static/siteImgAssert/leoay_labgh.jpg)
 
+![](http://leoay.xyz:8085/static/siteImgAssert/leoay_labgh.jpg)
 
 <!-- 我会在这里分享以下几个方面的内容：
 1. 算法
