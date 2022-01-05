@@ -20,7 +20,7 @@
 
 [![](https://img.shields.io/badge/技术栈：-black)](#) [![](https://img.shields.io/badge/Golang-blue)](#) [![](https://img.shields.io/badge/Python-blue)](#) [![](https://img.shields.io/badge/PHP-blue)](#) [![](https://img.shields.io/badge/JS-blue)](#)
 
-[![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
+[![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay&show_icons=true&theme=onedark&hide=issues,contribs)](https://github.com/leoay/leoay)
 
 
 [![](https://github-readme-stats.vercel.app/api/top-langs?username=leoay&show_icons=true&theme=onedark&layout=compact)](https://github.com/leoay/leoay)
