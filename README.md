@@ -1,32 +1,25 @@
 ```
-                        ===========================================================================
-                        ==    _    _   _   _   _____ _             _                             ==
-                        ==   | |  | | (_) | | |_   _( )           | |                            ==
-                        ==   | |__| |  _  | |   | | |/ _ __ ___   | | ___  ___   __ _ _   _      ==
-                        ==   |  __  | | | | |   | |   | '_ ` _ \  | |/ _ \/ _ \ / _` | | | |     ==
-                        ==   | |  | | | | |_|  _| |_  | | | | | | | |  __/ (_) | (_| | |_| |     ==
-                        ==   |_|  |_| |_| (_) |_____| |_| |_| |_| |_|\___|\___/ \__,_|\__, |     ==
-                        ==                                                             __/ |     ==
-                        ==                                                            |___/      ==
-                        ===========================================================================
-                        =============================== 2013- 2020 ================================
+    ===========================================================================
+    ==    _    _   _   _   _____ _             _                             ==
+    ==   | |  | | (_) | | |_   _( )           | |                            ==
+    ==   | |__| |  _  | |   | | |/ _ __ ___   | | ___  ___   __ _ _   _      ==
+    ==   |  __  | | | | |   | |   | '_ ` _ \  | |/ _ \/ _ \ / _` | | | |     ==
+    ==   | |  | | | | |_|  _| |_  | | | | | | | |  __/ (_) | (_| | |_| |     ==
+    ==   |_|  |_| |_| (_) |_____| |_| |_| |_| |_|\___|\___/ \__,_|\__, |     ==
+    ==                                                             __/ |     ==
+    ==                                                            |___/      ==
+    ===========================================================================
+    =============================== 2013- 2020 ================================
 ```
 
 # 今天是公元2022年01月05日
 
-[![](https://img.shields.io/badge/·兴趣：-black)](#) [![](https://img.shields.io/badge/口琴-blue)](#) [![](https://img.shields.io/badge/写作-blue)](#) [![](https://img.shields.io/badge/阅读-blue)](#)
+[![](https://img.shields.io/badge/兴趣：-black)](#) [![](https://img.shields.io/badge/口琴-blue)](#) [![](https://img.shields.io/badge/写作-blue)](#) [![](https://img.shields.io/badge/阅读-blue)](#)
 
-公众号： leoay技术圈
+[![](https://img.shields.io/badge/公众号：-black)](#) [![](https://img.shields.io/badge/leoay技术圈-blue)](#) [![](https://img.shields.io/badge/帅安-blue)](#)
 
-技术栈：Golang、Python、PHP、JS
-
+[![](https://img.shields.io/badge/技术栈：-black)](#) [![](https://img.shields.io/badge/Golang-blue)](#) [![](https://img.shields.io/badge/Python-blue)](#) [![](https://img.shields.io/badge/PHP-blue)](#) [![](https://img.shields.io/badge/JS-blue)](#)
 
 [![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
 
 [![leoay's 知乎](https://stats.justsong.cn/api/zhihu?username=leoay)](https://github.com/leoay/leoay)
-
-[![](https://img.shields.io/static/v1?label=写作平台&message=公众号&color=black)](sss)
-
-[![](https://img.shields.io/static/v1?label=写作平台&message=公众号&color=black)](sss)
-
-
