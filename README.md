@@ -14,11 +14,13 @@
 
 # 今天是公元2022年01月05日
 
-兴趣：口琴、读书、写作
+[![](https://img.shields.io/badge/·兴趣：-black)](#) [![](https://img.shields.io/badge/口琴-blue)](#) [![](https://img.shields.io/badge/写作-blue)](#) [![](https://img.shields.io/badge/阅读-blue)](#)
 
 公众号： leoay技术圈
 
 技术栈：Golang、Python、PHP、JS
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
+[![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
+
+[![](https://img.shields.io/static/v1?label=写作平台&message=公众号&color=black)](sss)
