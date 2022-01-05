@@ -23,4 +23,10 @@
 
 [![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
 
+[![leoay's 知乎](https://stats.justsong.cn/api/zhihu?username=leoay)](https://github.com/leoay/leoay)
+
 [![](https://img.shields.io/static/v1?label=写作平台&message=公众号&color=black)](sss)
+
+[![](https://img.shields.io/static/v1?label=写作平台&message=公众号&color=black)](sss)
+
+
