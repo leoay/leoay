@@ -22,4 +22,5 @@
 
 [![leoay's GitHub stats](https://github-readme-stats.vercel.app/api?username=leoay)](https://github.com/leoay/leoay)
 
-[![leoay's 知乎](https://stats.justsong.cn/api/zhihu?username=leoay)](https://github.com/leoay/leoay)
+
+[![](https://github-readme-stats.vercel.app/api/top-langs?username=leoay&show_icons=true&theme=onedark&layout=compact)](https://github.com/leoay/leoay)
