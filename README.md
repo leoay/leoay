@@ -26,3 +26,6 @@
 [![](https://github-readme-stats.vercel.app/api/top-langs?username=leoay&show_icons=true&theme=onedark&layout=compact)](https://github.com/leoay/leoay)
 
 ![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=leoay)
+
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
