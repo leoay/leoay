@@ -24,3 +24,5 @@
 
 
 [![](https://github-readme-stats.vercel.app/api/top-langs?username=leoay&show_icons=true&theme=onedark&layout=compact)](https://github.com/leoay/leoay)
+
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=leoay)
