@@ -14,5 +14,18 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@v1
     # 执行仓库中的脚本文件
-      - name: ' UpdateTime'
-        run: bash ./test.sh
+      - name: 'UpdateTime'
+        run: 
+          year=$(date +%Y)
+          month=$(date +%m)
+          day=$(date +%d)
+          hour=$(date +%H)
+          minu=$(date +%M)
+          sed -i "15c\# \今天是公元$year年$month月$day日 $hour:$minu" README.md
+
+          git config --global user.name "leoay"
+          git config --global user.email "leoay23@hotmail.com"
+
+          git add --all
+          git commit -m "update date"
+          git push origin main
