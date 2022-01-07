@@ -3,5 +3,5 @@ git config --global user.email "leoay23@hotmail.com"
 
 git add --all
 git commit -m "update date"
-git pull --rebase origin master
+git pull origin main
 git push origin main
