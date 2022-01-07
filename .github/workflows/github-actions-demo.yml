@@ -1,17 +1,36 @@
-name: GitHub Actions Demo
-on: [push]
+name: 'GitHub Actions Weather Bot'
+
+on:
+  push:
+  schedule:
+  # 定时任务，在每天的5点推送天气信息到邮箱
+    - cron: '* * * * *'
+
 jobs:
-  Explore-GitHub-Actions:
+  bot:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+    # 首先copy git仓库到虚拟机上
+      - name: 'Checkout codes'
+        uses: actions/checkout@v1
+    # 执行仓库中的脚本文件
+      - name: 'Get Weather'
+        run: bash ./weather.sh
+      # 获取格式化的日期并存入GitHub内置的环境变量中
+      - name: 'Get Date'
+        run: echo "REPORT_DATE=$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
+      # 使用现成的发送邮箱的GitHub action来发送邮件
+      - name: 'Send mail'
+        uses: dawidd6/action-send-mail@master
+        with:
+          # 这些是发送邮件需要配置的参数，更多详细的说明请访问具体的仓库
+          server_address: smtp.qq.com
+          server_port: 465
+          # 这些sectret的环境变量需要配置在setting中的secret下
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 天气预报 (${{env.REPORT_DATE}})
+          body: file://result.html
+          to: 1113794717@qq.com
+          from: GitHub Actions
+          content_type: text/html
