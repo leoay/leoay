@@ -5,8 +5,3 @@ hour=$(date +%H)
 minu=$(date +%M)
 
 sed -i "15c\# \今天是公元$year年$month月$day日 $hour:$minu" README.md
-
-git add --all
-git commit -m "update date"
-
-git push origin main
