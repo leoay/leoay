@@ -6,33 +6,49 @@ on:
   # 定时任务，在每天的5点推送天气信息到邮箱
     - cron: '* * * * *'
 
+
 jobs:
-  bot:
-    runs-on: ubuntu-latest
-    steps:
-    # 首先copy git仓库到虚拟机上
-      - name: 'Checkout codes'
-      - uses: actions/checkout@v2
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@master
         with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-    # 执行仓库中的脚本文件
-      - name: 'UpdateTime'
-        run: 
-          bash test.sh
-
-      - name: Commit files
-        run:
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "Add changes" -a
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Create local changes
+        run: |
+          ...
+      - name: Commit & Push changes
+        uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
 
+# jobs:
+#   bot:
+#     runs-on: ubuntu-latest
+#     steps:
+#     # 首先copy git仓库到虚拟机上
+#       - name: 'Checkout codes'
+#       - uses: actions/checkout@v2
+#         with:
+#           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+#           fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+#     # 执行仓库中的脚本文件
+#       - name: 'UpdateTime'
+#         run: 
+#           bash test.sh
+
+#       - name: Commit files
+#         run:
+#           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git config --local user.name "github-actions[bot]"
+#           git commit -m "Add changes" -a
+
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: ${{ github.ref }}
 
 # name: Debugging with SSH
 # on: push
