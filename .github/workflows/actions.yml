@@ -27,7 +27,7 @@ jobs:
           add: '*'
 
       - name: 'Push changes'
-        uses: ad-m/github-push-action@master
+        uses: leoay/leoay@main
         with:
           github_token: ${{ secrets.TOKEN }}
 
