@@ -18,9 +18,17 @@ jobs:
         run: 
           bash test.sh
 
-      - name: 'UpdateRepo'
+      - name: commit
         run:
-          bash updaterepo.sh
+          git config --global user.email leoay23@hotmail.com
+          git config --global user.name leoay
+          git add .
+          git commit -m "update date" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
 
 
 # name: Debugging with SSH
