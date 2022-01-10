@@ -17,13 +17,14 @@ jobs:
       - name: 'UpdateTime'
         run: 
           bash test.sh
-
-      - name: 'Commit'
-        run:
-          git config --global user.email leoay23@hotmail.com
-          git config --global user.name leoay
-          git add .
-          git commit -m "update date" -a
+      
+      - name: Commit changes
+        uses: leoay/leoay@main
+        with:
+          author_name: leaoy
+          author_email: leoay23@hotmail.com
+          message: 'Update Date'
+          add: '*'
 
       - name: 'Push changes'
         uses: ad-m/github-push-action@master
