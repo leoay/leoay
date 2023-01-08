@@ -16,7 +16,7 @@
 
 [![](https://img.shields.io/badge/兴趣：-black)](#) [![](https://img.shields.io/badge/口琴-blue)](#) [![](https://img.shields.io/badge/写作-blue)](#) [![](https://img.shields.io/badge/阅读-blue)](#)
 
-[![](https://img.shields.io/badge/公众号：-black)](#) [![](https://img.shields.io/badge/leoay技术圈-blue)](#) [![](https://img.shields.io/badge/帅安-blue)](#)
+[![](https://img.shields.io/badge/公众号：-black)](#) [![](https://img.shields.io/badge/leoay技术号-blue)](#) [![](https://img.shields.io/badge/帅安-blue)](#)
 
 [![](https://img.shields.io/badge/技术栈：-black)](#) [![](https://img.shields.io/badge/Golang-blue)](#) [![](https://img.shields.io/badge/Python-blue)](#) [![](https://img.shields.io/badge/PHP-blue)](#) [![](https://img.shields.io/badge/JS-blue)](#)
 
